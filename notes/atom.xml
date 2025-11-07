@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://YOUR_GITHUB_USERNAME.github.io/opentemporal/notes</id>
+    <title>OpenTemporal Blog</title>
+    <updated>2024-11-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://YOUR_GITHUB_USERNAME.github.io/opentemporal/notes"/>
+    <subtitle>OpenTemporal Blog</subtitle>
+    <icon>https://YOUR_GITHUB_USERNAME.github.io/opentemporal/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[What OpenTemporal is (and is not)]]></title>
+        <id>https://YOUR_GITHUB_USERNAME.github.io/opentemporal/notes/what-opentemporal-is-and-is-not</id>
+        <link href="https://YOUR_GITHUB_USERNAME.github.io/opentemporal/notes/what-opentemporal-is-and-is-not"/>
+        <updated>2024-11-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenTemporal exists to connect rigorous thinking around time-series representations, evaluation, and deployment. The site emphasises clarity over hype, which means prioritising documented concepts, reusable references, and transparent guardrails.]]></summary>
+        <content type="html"><![CDATA[<p>OpenTemporal exists to connect rigorous thinking around time-series representations, evaluation, and deployment. The site emphasises clarity over hype, which means prioritising documented concepts, reusable references, and transparent guardrails.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-this-space-exists">Why this space exists<a href="https://your_github_username.github.io/opentemporal/notes/what-opentemporal-is-and-is-not#why-this-space-exists" class="hash-link" aria-label="Direct link to Why this space exists" title="Direct link to Why this space exists" translate="no">​</a></h2>
+<ul>
+<li class="">Provide a calm alternative to marketing-heavy takes on time-series AI.</li>
+<li class="">Preserve shared vocabulary across scientists, researchers, and engineers.</li>
+<li class="">Encourage responsible evaluation practices before models reach production.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-the-site-is-not">What the site is not<a href="https://your_github_username.github.io/opentemporal/notes/what-opentemporal-is-and-is-not#what-the-site-is-not" class="hash-link" aria-label="Direct link to What the site is not" title="Direct link to What the site is not" translate="no">​</a></h2>
+<ul>
+<li class="">A repository for unpublished or confidential research notes.</li>
+<li class="">A showcase of proprietary pipelines or client deliverables.</li>
+<li class="">A venue for aggressive growth hacks or unreviewed claims.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-engage">How to engage<a href="https://your_github_username.github.io/opentemporal/notes/what-opentemporal-is-and-is-not#how-to-engage" class="hash-link" aria-label="Direct link to How to engage" title="Direct link to How to engage" translate="no">​</a></h2>
+<p>Browse the Knowledge Base, Methods &amp; Concepts, and Applications sections to ground yourself. When ready to collaborate, visit the dedicated <a class="" href="https://your_github_username.github.io/opentemporal/collaboration">Collaboration page</a> with a succinct proposal. Contributions that align with open, well-documented practices are always welcome.</p>]]></content>
+        <author>
+            <name>OpenTemporal Maintainer</name>
+            <uri>https://github.com/YOUR_GITHUB_USERNAME</uri>
+        </author>
+        <category label="philosophy" term="philosophy"/>
+        <category label="scope" term="scope"/>
+    </entry>
+</feed>

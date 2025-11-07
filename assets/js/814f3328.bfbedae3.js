@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkopentemporal_site=globalThis.webpackChunkopentemporal_site||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What OpenTemporal is (and is not)","permalink":"/opentemporal/notes/what-opentemporal-is-and-is-not","unlisted":false,"date":"2024-11-07T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkopentemporal_site=globalThis.webpackChunkopentemporal_site||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/opentemporal/notes","blogTitle":"Open Notes","authorsListPath":"/opentemporal/notes/authors"}')}}]);
