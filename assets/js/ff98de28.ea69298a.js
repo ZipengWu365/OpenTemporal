@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkopentemporal_site=globalThis.webpackChunkopentemporal_site||[]).push([[5439],{4769:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/OpenTemporal/notes","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Reflective notes about the scope, boundaries, and philosophy of OpenTemporal.","blogTitle":"Open Notes"}}')}}]);

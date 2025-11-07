@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkopentemporal_site=globalThis.webpackChunkopentemporal_site||[]).push([[3924],{9547:e=>{e.exports=JSON.parse('{"authors":[{"name":"OpenTemporal Maintainer","title":"Curator","url":"https://github.com/YOUR_GITHUB_USERNAME","key":"maintainer","page":null,"count":1}]}')}}]);

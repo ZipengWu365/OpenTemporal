@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkopentemporal_site=globalThis.webpackChunkopentemporal_site||[]).push([[9466],{5214:e=>{e.exports=JSON.parse('{"tags":[{"label":"philosophy","permalink":"/OpenTemporal/notes/tags/philosophy","count":1},{"label":"scope","permalink":"/OpenTemporal/notes/tags/scope","count":1}]}')}}]);
