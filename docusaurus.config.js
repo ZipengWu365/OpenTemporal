@@ -21,16 +21,16 @@ const config = {
 
   // Set the production url of your site here
   // Placeholder base URL that should later be replaced with the actual GitHub username.
-  url: 'https://YOUR_GITHUB_USERNAME.github.io',
+  url: 'https://zipengwu365.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/opentemporal/',
+  baseUrl: '/OpenTemporal/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'YOUR_GITHUB_USERNAME', // Update once the repository exists.
-  projectName: 'opentemporal',
+  organizationName: 'ZipengWu365', // Update once the repository exists.
+  projectName: 'OpenTemporal',
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -51,7 +51,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Keep edit links pointing to the GitHub repository for traceability.
-          editUrl: 'https://github.com/YOUR_GITHUB_USERNAME/opentemporal/tree/main/',
+          editUrl: 'https://github.com/ZipengWu365/OpenTemporal/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -64,7 +64,7 @@ const config = {
           blogDescription:
             'Reflective notes about the scope, boundaries, and philosophy of OpenTemporal.',
           // Keep edit links pointing to the GitHub repository for traceability.
-          editUrl: 'https://github.com/YOUR_GITHUB_USERNAME/opentemporal/tree/main/',
+          editUrl: 'https://github.com/ZipengWu365/OpenTemporal/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -101,7 +101,7 @@ const config = {
           {type: 'doc', docId: 'tools-starter-kits/overview', label: 'Tools & Starter Kits', position: 'left'},
           {type: 'doc', docId: 'reading-room/overview', label: 'Reading Room', position: 'left'},
           {to: '/collaboration', label: 'Collaboration', position: 'left'},
-          {href: 'https://github.com/YOUR_GITHUB_USERNAME/opentemporal', label: 'GitHub', position: 'right'},
+          {href: 'https://github.com/ZipengWu365/OpenTemporal', label: 'GitHub', position: 'right'},
         ],
       },
       footer: {
@@ -119,11 +119,11 @@ const config = {
             items: [
               {
                 label: 'GitHub Repository',
-                href: 'https://github.com/YOUR_GITHUB_USERNAME/opentemporal',
+                href: 'https://github.com/ZipengWu365/OpenTemporal',
               },
               {
                 label: 'GitHub Pages Preview',
-                href: 'https://YOUR_GITHUB_USERNAME.github.io/opentemporal/',
+                href: 'https://zipengwu365.github.io/OpenTemporal/',
               },
             ],
           },
