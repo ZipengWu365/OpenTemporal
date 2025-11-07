@@ -1,0 +1,9 @@
+
+> opentemporal-site@0.0.0 dev
+> docusaurus start --no-open --port 3111
+
+[INFO] Starting the development server...
+[SUCCESS] Docusaurus website is running at: http://localhost:3111/opentemporal/
+[90m[[90mwebpackbar[90m][39m [36mi[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [32m√[39m Client: Compiled successfully in 4.07s
+[1mclient[39m[22m (webpack 5.102.1) compiled [1m[32msuccessfully[39m[22m

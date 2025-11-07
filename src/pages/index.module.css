@@ -1,0 +1,110 @@
+.hero {
+  background: var(--opentemporal-hero-background);
+  padding: 4rem 1rem;
+}
+
+.heroContent {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.overline {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  color: var(--opentemporal-heading);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--opentemporal-body);
+}
+
+.note {
+  font-size: 0.95rem;
+  color: var(--opentemporal-muted);
+  max-width: 620px;
+  margin-bottom: 1.5rem;
+}
+
+.ctaGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.outlineButton {
+  background: transparent;
+  color: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+}
+
+.whatsInside {
+  padding: 3rem 1rem 4rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.sectionHeader h2 {
+  font-size: 2rem;
+  color: var(--opentemporal-heading);
+  margin-bottom: 0.5rem;
+}
+
+.sectionHeader p {
+  color: var(--opentemporal-muted);
+  margin: 0;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.infoCard {
+  border: 1px solid var(--opentemporal-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.infoCard h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--opentemporal-heading);
+}
+
+.infoCard p {
+  margin: 0;
+  color: var(--opentemporal-body);
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .ctaGroup {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
