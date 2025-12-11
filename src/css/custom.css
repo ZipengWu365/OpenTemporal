@@ -6,46 +6,62 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2b5fb3;
-  --ifm-color-primary-dark: #244f96;
-  --ifm-color-primary-darker: #204887;
-  --ifm-color-primary-darkest: #183666;
-  --ifm-color-primary-light: #3f73c4;
-  --ifm-color-primary-lighter: #537fca;
-  --ifm-color-primary-lightest: #6d93d7;
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
-    sans-serif;
-  --ifm-background-color: #f7f7f3;
-  --ifm-background-surface-color: #ffffff;
-  --ifm-footer-background-color: #f1f3f8;
-  --ifm-navbar-background-color: #ffffffd9;
-  --ifm-navbar-shadow: 0 0 24px rgba(15, 23, 42, 0.05);
-  --docusaurus-highlighted-code-line-bg: rgba(43, 95, 179, 0.08);
+  /* Modern Blue Palette (Inter-based) */
+  --ifm-color-primary: #3b82f6;
+  /* Modern Blue */
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #bfdbfe;
 
-  /* Custom tokens for the calm research aesthetic */
-  --opentemporal-heading: #0f172a;
-  --opentemporal-body: #1f2937;
-  --opentemporal-muted: #4b5563;
-  --opentemporal-border: #d8dee9;
-  --opentemporal-hero-background: #edf0f6;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Light Mode - Clean & Airy */
+  --ifm-background-color: #fafbfc;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-footer-background-color: #f8fafc;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+  /* Glassmorphism base */
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.1);
+
+  /* Custom Aesthetic Tokens */
+  --opentemporal-heading: #1e293b;
+  --opentemporal-body: #334155;
+  --opentemporal-muted: #64748b;
+  --opentemporal-border: #e2e8f0;
+  --opentemporal-hero-background: linear-gradient(180deg, rgba(59, 130, 246, 0.05) 0%, transparent 100%);
+  --opentemporal-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --opentemporal-card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #8cb4ff;
-  --ifm-color-primary-dark: #7aa2f0;
-  --ifm-color-primary-darker: #6b8fd8;
-  --ifm-color-primary-darkest: #566fa7;
-  --ifm-color-primary-light: #9ac0ff;
-  --ifm-color-primary-lighter: #abcaff;
-  --ifm-color-primary-lightest: #c7dbff;
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+
   --ifm-background-color: #0f172a;
-  --ifm-background-surface-color: #17233f;
-  --ifm-footer-background-color: #101a31;
-  --docusaurus-highlighted-code-line-bg: rgba(140, 180, 255, 0.18);
+  /* Slate 900 */
+  --ifm-background-surface-color: #1e293b;
+  /* Slate 800 */
+  --ifm-footer-background-color: #020617;
+  /* Slate 950 */
+  --ifm-navbar-background-color: rgba(15, 23, 42, 0.85);
+
+  --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.15);
+
   --opentemporal-heading: #f8fafc;
-  --opentemporal-body: #e2e8f0;
+  --opentemporal-body: #cbd5e1;
   --opentemporal-muted: #94a3b8;
-  --opentemporal-border: #253259;
-  --opentemporal-hero-background: #101a31;
+  --opentemporal-border: #334155;
+  --opentemporal-hero-background: linear-gradient(180deg, rgba(30, 64, 175, 0.1) 0%, transparent 100%);
+  --opentemporal-card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --opentemporal-card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
 }

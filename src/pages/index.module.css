@@ -1,45 +1,70 @@
+/* Homepage Styles - Modern & Research Focused */
+
 .hero {
   background: var(--opentemporal-hero-background);
-  padding: 4rem 1rem;
+  padding: 6rem 1rem 4rem;
+  /* Increased padding for better scale */
+  position: relative;
+  overflow: hidden;
 }
 
 .heroContent {
-  max-width: 760px;
+  max-width: 800px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
+  /* Centered hero for modern feel */
 }
 
 .overline {
-  letter-spacing: 0.2em;
+  display: inline-block;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--ifm-color-primary);
-  font-size: 0.8rem;
-  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  background: var(--docusaurus-highlighted-code-line-bg);
+  padding: 0.25rem 0.75rem;
+  border-radius: 99px;
 }
 
 .hero h1 {
-  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
   color: var(--opentemporal-heading);
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
   color: var(--opentemporal-body);
+  line-height: 1.6;
 }
 
 .note {
   font-size: 0.95rem;
   color: var(--opentemporal-muted);
-  max-width: 620px;
-  margin-bottom: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
 }
 
 .ctaGroup {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 1rem;
+}
+
+/* Button Refinement */
+.ctaGroup :global(.button) {
+  border-radius: 8px;
+  /* Softer corners */
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
 .outlineButton {
@@ -48,59 +73,88 @@
   border: 1px solid var(--ifm-color-primary);
 }
 
+.outlineButton:hover {
+  background: var(--docusaurus-highlighted-code-line-bg);
+}
+
+/* Sections */
 .whatsInside {
-  padding: 3rem 1rem 4rem;
-  max-width: 1080px;
+  padding: 4rem 1rem 6rem;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .sectionHeader {
   max-width: 720px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 3rem;
   text-align: center;
 }
 
 .sectionHeader h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: var(--opentemporal-heading);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
 }
 
 .sectionHeader p {
   color: var(--opentemporal-muted);
   margin: 0;
+  font-size: 1.1rem;
 }
 
+/* Cards */
 .cardGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  /* Slightly wider cards */
+  gap: 2rem;
 }
 
 .infoCard {
   border: 1px solid var(--opentemporal-border);
-  border-radius: 12px;
-  padding: 1.25rem;
+  border-radius: 16px;
+  /* Modern rounded corners */
+  padding: 2rem;
   background: var(--ifm-background-surface-color);
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+  box-shadow: var(--opentemporal-card-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+}
+
+.infoCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--opentemporal-card-hover);
+  border-color: var(--ifm-color-primary-light);
 }
 
 .infoCard h3 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
   color: var(--opentemporal-heading);
+  font-weight: 600;
 }
 
 .infoCard p {
   margin: 0;
   color: var(--opentemporal-body);
-  font-size: 0.95rem;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 @media screen and (max-width: 768px) {
   .hero {
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
+    text-align: left;
+  }
+
+  .heroContent {
+    text-align: left;
+  }
+
+  .ctaGroup {
+    justify-content: flex-start;
   }
 
   .ctaGroup {
